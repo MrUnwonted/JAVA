@@ -25,13 +25,11 @@ public class G {
         System.out.println("Delete");
 
         int[] arr = {2,3,5,4,11};
-        int pos = 1;
+        int pos = 0;
         int n = arr.length;
-        for (int i = pos; i < arr.length - 1 ; i++) {
+        for (int i = pos; i < arr.length -1 ; i++) {
             arr[i] = arr[i + 1];
         }
-
-        arr[arr.length - 1] = 0;
 
         for (int i = 0; i < arr.length - 1 ; i++) {
             System.out.print(arr[i] + " ");
