@@ -10,5 +10,10 @@ public class A {
 
         }
         System.out.println(c);
+
+//        for (int i = 0; i <s.length() ; i++) {
+//            c = String.valueOf(s.charAt(i)/10);
+//        }
+//        System.out.println(c);
     }
 }
